@@ -1,0 +1,158 @@
+@font-face {
+    font-family: Sandre;
+    src: url(./SANDRE-Regular.otf) format('opentype');
+}
+
+.whole-page{
+    display: flex;
+}
+
+.container-left{
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 40vw;
+    background-size: cover;
+    max-width: 700px;
+    display:flex;
+    justify-content: center;
+}
+
+.logo{
+    margin-top: 200px;
+    background-color: black;
+    height:150px;
+    width:100%;
+    opacity: 0.8;
+    color:aliceblue;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 75px;
+    font-family: Sandre;
+}
+
+.container-right{
+    display:flex;
+    flex-direction: column;
+    width:100%;
+    height: 100vh;
+    background-color:rgb(249, 249, 251);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+#desc-container{
+    font-size: 27px;
+    width: 80%;
+    margin-left: 100px;
+    margin-bottom:50px;
+    font-weight: bold;
+}
+
+#label{
+    margin-left: 100px;
+    margin-bottom: 50px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
+#form{
+    background-color: white;
+    margin-bottom: 25px;
+    box-shadow: 10px 10px 20px rgb(177, 177, 177);
+}
+
+#buttons{
+    margin-left: 100px;
+    margin-bottom: 25px;
+}
+
+#loggedin{
+    margin-left: 100px;
+    font-weight: bold;
+}
+
+body {
+    display:flex;
+}
+
+#form {
+    padding-left: 100px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+}
+
+form {
+    display:flex;
+    justify-content: space-between;
+    max-width: 500px;
+}
+
+#left{
+    display:flex;
+    flex-direction: column;
+}
+
+.input-segment{
+    display:flex;
+    flex-direction: column;
+    margin-bottom: 40px;
+}
+
+#call-to-action{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.label{
+    font-weight: 200;
+    font-size: 12px;
+}
+
+#butt{
+    padding: 7px;
+    width: 175px;
+    background-color:rgb(189, 115, 45);
+    color: aliceblue;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgb(177, 177, 177);
+    font-weight: bold;
+}
+
+input{
+    border-radius: 2px;
+    border-style: solid;
+}
+
+.error{
+    border-color: rgb(199, 0, 0);
+}
+
+#password-error{
+    font-size:10px;
+    color: rgb(199, 0, 0);;
+}
+
+input:focus{
+    outline:none;
+    border-style: solid;
+    border-width:3px;
+    border-color: rgb(189, 115, 45);
+    box-shadow: 2px 2px 5px rgb(177, 177, 177);
+}
+
+a {
+    color:rgb(189, 115, 45);
+    text-decoration: none;
+}
